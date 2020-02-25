@@ -285,7 +285,7 @@ namespace PAIS
             IWebDriver driver = new ChromeDriver();
             //driver.Navigate().GoToUrl(Url);
 
-            string Url = "http://172.16.18.106/PAIS_Selenium/";
+            //string Url = "http://172.16.18.106/PAIS_Selenium/";
             //IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl(Url);
 
