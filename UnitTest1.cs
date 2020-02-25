@@ -101,7 +101,7 @@ namespace PAIS
         public void HOD()
         {
             string Url = "http://172.16.18.106/PAIS_Selenium/";
-            //IWebDriver driver = new ChromeDriver();
+            IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl(Url);
 
             driver.FindElement(By.Id("ContentPlaceHolder1_TextBoxEmailId")).SendKeys("fasu6");
@@ -189,7 +189,7 @@ namespace PAIS
         public void HOI()
         {
             string Url = "http://172.16.18.106/PAIS_Selenium/";
-            //IWebDriver driver = new ChromeDriver();
+            IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl(Url);
 
             driver.FindElement(By.Id("ContentPlaceHolder1_TextBoxEmailId")).SendKeys("fassu2");
@@ -281,8 +281,8 @@ namespace PAIS
         [Test]
         public void F_Exec()
         {
-            //string Url = "http://172.16.18.106/PAIS_Selenium/";
-            //IWebDriver driver = new ChromeDriver();
+            string Url = "http://172.16.18.106/PAIS_Selenium/";
+            IWebDriver driver = new ChromeDriver();
             //driver.Navigate().GoToUrl(Url);
 
             string Url = "http://172.16.18.106/PAIS_Selenium/";
@@ -387,7 +387,7 @@ namespace PAIS
         public void F_Dir()
         {
             string Url = "http://172.16.18.106/PAIS_Selenium/";
-            //IWebDriver driver = new ChromeDriver();
+            IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl(Url);
            
             //string Url = "http://172.16.18.106/PAIS_Selenium/";
@@ -491,7 +491,7 @@ namespace PAIS
         public void DDP()
         {
             string Url = "http://172.16.18.106/PAIS_Selenium/";
-            //IWebDriver driver = new ChromeDriver();
+            IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl(Url);
 
             driver.FindElement(By.Id("ContentPlaceHolder1_TextBoxEmailId")).SendKeys("fasu3");
@@ -583,7 +583,7 @@ namespace PAIS
         public void PD()
         {
             string Url = "http://172.16.18.106/PAIS_Selenium/";
-            //IWebDriver driver = new ChromeDriver();
+            IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl(Url);
 
             driver.FindElement(By.Id("ContentPlaceHolder1_TextBoxEmailId")).SendKeys("fasu5");
@@ -676,7 +676,7 @@ namespace PAIS
         public void Dispatch()
         {
             string Url = "http://172.16.18.106/PAIS_Selenium/";
-            //IWebDriver driver = new ChromeDriver();
+            IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl(Url);
 
             driver.FindElement(By.Id("ContentPlaceHolder1_TextBoxEmailId")).SendKeys("fassv3");
@@ -769,7 +769,7 @@ namespace PAIS
         public void Head()
         {
             string Url = "http://172.16.18.106/PAIS_Selenium/";
-            //IWebDriver driver = new ChromeDriver();
+            IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl(Url);
 
             driver.FindElement(By.Id("ContentPlaceHolder1_TextBoxEmailId")).SendKeys("fasu6");
@@ -865,7 +865,7 @@ namespace PAIS
         public void buyer()
         {
             string Url = "http://172.16.18.106/PAIS_Selenium/";
-            //IWebDriver driver = new ChromeDriver();
+            IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl(Url);
 
             driver.FindElement(By.Id("ContentPlaceHolder1_TextBoxEmailId")).SendKeys("fassv3");
